@@ -1,0 +1,983 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Yanone+Kaffeesatz:wght@300;700&display=swap');
+body:after, .container:after, .head:after, .aboutschool:after, .aboutother:after, .aboutanothertxt:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+body{
+	transition: 400ms;
+	max-width: 1200px;
+	background-color: white;
+	margin: 0;
+	margin: 0 auto;
+	background-color: #1a1a1a;
+}
+.head{
+	transition: 400ms;
+	margin-top: 1px;
+	max-width: 1200px;
+	width: 100%;
+}
+#headimg {
+	display: inline;
+	position: relative;
+	width: 99.6%;
+	left: 0.11%;
+}
+.haeadtxt{
+	transition: 400ms;
+	position: relative;
+	font-size: 190%;
+	color: white;
+	font-family: Yanone+Kaffeesatz:wght;
+	z-index: 7;
+	margin-top: -10%;
+	margin-bottom: 2%;
+}
+#main {
+	transition: 400ms;
+	display: inline-block;
+	position: relative;
+	color: rgb(224, 178, 11);
+	text-align: left;
+	bottom: -90%;
+	left: 1%;
+	max-width: 9%
+}
+#price {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 6.4%;
+	z-index: 1;
+	left: 4%;
+}
+#price:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+#learn {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 11%;
+	z-index: 1;
+	left: 6.5%;
+
+}
+#learn:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+#contact {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 11%;
+	z-index: 1;
+	left:8.7%;
+}
+#contact:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+.ava {
+	transition: 400ms;
+	margin-top: -11%;
+	text-align: right;
+	font-size: 300%;
+	color: white;
+	font-family: Comfortaa;
+	z-index: 6;
+
+}
+#ava {
+	transition: 400ms;
+	display: inline-block;
+	position: relative;
+	left: -5%;
+	margin-bottom: 7%;
+}
+.container{
+	transition: 400ms;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+	background-color: rgb(46, 46, 46);
+	margin-left: 1px;
+	margin-right: 2px;
+}
+.car1 {
+	transition: 400ms;
+     position: relative;
+     margin-top: -7%;
+     background-color: black;
+     z-index: 6;
+}
+#car1 {
+	transition: 400ms;
+	width: 100%;
+	background-color: black;
+	z-index: 6;
+}
+.aboutschool{
+	transition: 400ms;
+	background-color: black;
+	margin-bottom: 8%;
+}
+.aboutimg {
+	transition: 400ms;
+	margin-bottom: 6%;
+}
+#aboutimg {
+	display: inline-block;
+	position: relative;
+	left: 52%;
+	width: 43%;
+	margin-top: 4%;
+	transition: 400ms;
+}
+.aboutzagalovok {
+	font-size: 250%;
+	color: white;
+	text-align: center;
+	margin-top: -3%;
+	transition: 400ms;
+}
+#aboutzagalovok {
+	display: inline-block;
+	position: relative;
+	margin-top: 8%;
+	transition: 400ms;
+}
+.aboutother	{
+	transition: 400ms;
+	font-size: 200%;
+	color: white;
+	text-align: left;
+}
+#abouttxt1 {
+	transition: 400ms;
+	display: inline-block;
+    position: relative;
+    margin-top: -64%;
+    left: 20%;
+}
+
+.abouttxt {
+	position: relative;
+	display: inline-block;
+	margin-top: -13%;
+	transition: 400ms;
+}
+.main {
+  background-color: rgb(46, 46, 46);
+}
+#mainimg {
+	width: 100%;
+}
+.yslygi {
+	font-size: 330%;
+	text-align: center;
+	color:  white;
+	margin-top: -5%;
+}
+#yslygitxt {
+	margin-top: 10%;
+	margin-bottom: 6%;
+}
+#ys1 {
+	display: inline-block;
+	position: relative;
+	left: -5%;
+	width: 40%;
+	transition: 200ms;
+}
+#ys1:hover {
+	width: 41%;
+	transition: 400ms;
+}
+#ys2 {
+	display: inline-block;
+	position: relative;
+	left: 6%;
+	width: 42%;
+	transition: 200ms;
+}
+#ys2:hover {
+	width: 43%;
+	transition: 400ms;
+}
+#ys3 {
+	display: inline-block;
+	position: relative;
+	margin-top: 3%;
+	margin-bottom: 6%;
+	left: 0%;
+	width: 42%;
+	transition: 200ms;
+}
+#ys3:hover {
+	width: 43%;
+	transition: 400ms;
+}
+#between {
+	width: 100%;
+	margin-bottom: 1%;
+}
+.learnzag {
+	text-align: center;
+	font-family: Yanone+Kaffeesatz:wght;
+}
+#learnzag {
+     display: inline-block;
+     position: relative;
+     font-size: 350%;
+     text-align: center;
+     color: white;
+}
+.learnother {
+	font-size: 200%;
+	color: white;
+	text-align: left;
+	background-color: rgb(46, 46, 46);
+	margin-bottom:0;
+	width: 100%;
+}
+#learnother {
+	display: inherit;
+	position: relative;
+	margin-top: -2%;
+	left: 8%;
+	margin-bottom: 5%;
+	width: 50%;
+}
+.learn2 {
+
+}
+.footer {
+	background-color: black;
+	z-index: 5;
+}
+.sositetxt {
+	text-align: right;
+	font-size: 260%;
+	color: white;
+}
+#sosite {
+	display: inline-block;
+	position: relative;
+	right: 10%;
+}
+#footerimg1 {
+	display: inline-block;
+	position: relative;
+	width: 6%;
+	left: 57%;
+	margin-top: 0%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg1:hover {
+	width: 7%;
+	left: 56.8%;
+	transition: 400ms;
+}
+#footerimg2 {
+    display: inline-block;
+	position: relative;
+	width: 6%;
+	left: 63%;
+	margin-top: -2%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg2:hover {
+	width: 7%;
+	left: 62.8%;
+	transition: 400ms;
+}
+#footerimg3 {
+	display: inline-block;
+	position: relative;
+	width: 6%;
+	left: 68%;
+	margin-top: -2%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg3:hover {
+	width: 7%;
+	left: 68%;
+	transition: 400ms;
+}
+.adress {
+	color: white;
+	font-size: 200%;
+	text-align: left;
+
+}
+#adresstxt1 {
+	display: inherit;
+	position: relative;
+	left: 8%;
+	margin-top: -5%;
+	max-width: 1200;
+	width: 50%;
+}
+.contact2 {
+	color: white;
+	font-size: 200%;
+	text-align: left;
+}
+#contact2txt {
+	display: inline-block;
+	position: relative;
+	left: 70%;
+	margin-top: -17%;
+}
+@media (max-width: 1100px) {
+	.container{
+	max-width: 1100px;
+	margin: 0 auto;
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+	background-color: rgb(46, 46, 46);
+	transition: 400ms;
+}
+body{
+	background-color: white;
+	margin: 0;
+	margin: 0 auto;
+	transition: 400ms;
+	background-color: #282828;
+
+}
+.head{
+	margin-top: 0px;
+	max-width: 1200px;
+	width: 100%;
+	transition: 400ms;
+	margin-bottom: 2%;
+}
+.haeadtxt{
+	text-align: center;
+	position: relative;
+	font-size: 150%;
+	color: white;
+	font-family: Yanone+Kaffeesatz:wght;
+	z-index: 2;
+	margin-top: -12%;
+	margin-bottom: 2%;
+	transition: 400ms;
+}
+#headimg {
+	display: inline;
+	position: relative;
+	width: 100%;
+	left: 0%;
+	transition: 400ms;
+}
+#main {
+	font-size: 120%;
+	display: inline-block;
+	position: relative;
+	color: rgb(224, 178, 11);
+	text-align: left;
+	bottom: -90%;
+	max-width: 9%;
+	transition: 400ms;
+}
+#price {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 6.4%;
+	z-index: 1;
+
+	
+}
+#price:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+#learn {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 11%;
+	z-index: 1;
+	left: 6.5%;
+
+}
+#learn:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+#contact {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 11%;
+	z-index: 1;
+}
+#contact:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+.ava {
+	margin-top: -7%;
+	text-align: right;
+	font-size: 300%;
+	color: white;
+	font-family: Comfortaa;
+	z-index: 0;
+	opacity: 0;
+	transition: 400ms;
+
+}
+#ava {
+	display: inline-block;
+	position: relative;
+	left: -5%;
+	margin-bottom: 6%;
+	transition: 400ms;
+}
+.car1 {
+     position: relative;
+     margin-top: -11%;
+     background-color: black;
+     transition: 400ms;
+}
+#car1 {
+	width: 100%;
+	background-color: black;
+	transition: 400ms;
+}
+.aboutother	{
+	font-size: 178%;
+	color: white;
+	text-align: left;
+	transition: 400ms;
+}
+.contact2 {
+	color: white;
+	font-size: 190%;
+	text-align: left;
+	transition: 400ms;
+}
+#contact2txt {
+	display: inline-block;
+	position: relative;
+	left: 65%;
+	margin-top: -17%;
+	transition: 400ms;
+}
+.adress {
+	color: white;
+	font-size: 190%;
+	text-align: left;
+	transition: 400ms;
+
+}
+.sositetxt {
+	text-align: right;
+	font-size: 250%;
+	color: white;
+	transition: 400ms;
+}
+}
+@media (max-width: 900px){
+	.container{
+	max-width: 900px;
+	margin: 0 auto;
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+	background-color: rgb(46, 46, 46);
+	transition: 400ms;
+}
+body{
+	max-width: 900px;
+	background-color: white;
+	margin: 0;
+	margin: 0 auto;
+	transition: 400ms;
+}
+.head{
+	margin-top: 0px;
+	max-width: 900px;
+	width: 100%;
+	transition: 400ms;
+	margin-bottom: 3%;
+	z-index: 6;
+}
+.haeadtxt{
+	text-align: center;
+	position: relative;
+	font-size: 130%;
+	color: white;
+	font-family: Yanone+Kaffeesatz:wght;
+	z-index: 2;
+	margin-top: -10%;
+	transition: 400ms;
+	z-index: 7;
+}
+#headimg {
+	display: inline;
+	position: relative;
+	width: 100%;
+	left: 0%;
+	transition: 400ms;
+	z-index: 6;
+}
+#main {
+	font-size: 120%;
+	display: inline-block;
+	position: relative;
+	color: rgb(224, 178, 11);
+	text-align: left;
+	bottom: -90%;
+	max-width: 9%;
+	
+	transition: 400ms;
+}
+#price {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 6.4%;
+	z-index: 1;
+
+	
+}
+#price:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+#learn {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 11%;
+	z-index: 1;
+	left: 6.2%;
+
+}
+#learn:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+#contact {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 11%;
+	z-index: 1;
+}
+#contact:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+.ava {
+	margin-top: 9%;
+	text-align: right;
+	font-size: 300%;
+	color: white;
+	font-family: Comfortaa;
+	z-index: 0;
+	opacity: 0;
+	transition: 400ms;
+	z-index: 6;
+
+}
+#ava {
+	display: inline-block;
+	position: relative;
+	left: -5%;
+	margin-bottom: 6%;
+	transition: 400ms;
+	z-index: 6;
+}
+.car1 {
+     position: relative;
+     margin-top: -37%;
+     background-color: black;
+     transition: 400ms;
+     z-index: 5;
+}
+#car1 {
+	width: 100%;
+	background-color: black;
+	transition: 400ms;
+}
+.aboutother	{
+	font-size: 150%;
+	color: white;
+	text-align: left;
+	transition: 400ms;
+}
+.aboutzagalovok {
+	font-size: 210%;
+	color: white;
+	text-align: center;
+	margin-top: -3%;
+	transition: 400ms;
+}
+.yslygi {
+	font-size: 245%;
+	text-align: center;
+	color:  white;
+	margin-top: -5%;
+	transition: 400ms;
+}
+#yslygitxt {
+	margin-top: 10%;
+	margin-bottom: 6%;
+	transition: 400ms;
+}
+#learnzag {
+     display: inline-block;
+     position: relative;
+     font-size: 250%;
+     text-align: center;
+     color: white;
+     transition: 400ms;
+}
+.learnother {
+	font-size: 160%;
+	color: white;
+	text-align: left;
+	background-color: rgb(46, 46, 46);
+	margin-bottom:0;
+	width: 100%;
+	transition: 400ms;
+}
+.contact2 {
+	color: white;
+	font-size: 150%;
+	text-align: left;
+	transition: 400ms;
+}
+#contact2txt {
+	display: inline-block;
+	position: relative;
+	left: 65%;
+	margin-top: -17%;
+	transition: 400ms;
+}
+
+.adress {
+	color: white;
+	font-size: 150%;
+	text-align: left;
+	transition: 400ms;
+
+}
+.sositetxt {
+	text-align: right;
+	font-size: 200%;
+	color: white;
+	transition: 400ms;
+}
+#footerimg1 {
+	display: inline-block;
+	position: relative;
+	width: 8%;
+	left: 57%;
+	margin-top: 0%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg1:hover {
+	width: 8%;
+	left: 57%;
+	transition: 400ms;
+}
+#footerimg2 {
+    display: inline-block;
+	position: relative;
+	width: 8%;
+	left: 63%;
+	margin-top: -2%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg2:hover {
+	width: 8%;
+	left: 63%;
+	transition: 400ms;
+}
+#footerimg3 {
+	display: inline-block;
+	position: relative;
+	width: 8%;
+	left: 68%;
+	margin-top: -2%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg3:hover {
+	width: 8%;
+	left: 68%;
+	transition: 400ms;
+}
+}
+@media (max-width: 760px) {
+	.aboutother	{
+	font-size: 135%;
+	color: white;
+	text-align: left;
+	transition: 400ms;
+}
+}
+@media (max-width: 700px) {
+	.container{
+	max-width: 700px;
+	margin: 0 auto;
+	padding: 0;
+	margin: 0;
+	margin: 0 auto;
+	background-color: rgb(46, 46, 46);
+	transition: 400ms;
+}
+body{
+	max-width: 700px;
+	background-color: white;
+	margin: 0;
+	margin: 0 auto;
+	transition: 400ms;
+}
+.head{
+	margin-top: 0px;
+	max-width: 700px;
+	width: 100%;
+	transition: 400ms;
+}
+.haeadtxt{
+	text-align: center;
+	position: relative;
+	font-size: 110%;
+	color: white;
+	font-family: Yanone+Kaffeesatz:wght;
+	z-index: 2;
+	margin-top: -10%;
+	transition: 400ms;
+	z-index: 7;
+}
+#headimg {
+	display: inline;
+	position: relative;
+	width: 100%;
+	left: 0%;
+	transition: 400ms;
+}
+#main {
+	font-size: 120%;
+	display: inline-block;
+	position: relative;
+	color: rgb(224, 178, 11);
+	text-align: left;
+	bottom: -90%;
+	max-width: 9%
+	transition: 400ms;
+}
+#price {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 6.4%;
+	z-index: 1;
+
+	
+}
+#price:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+#learn {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 11%;
+	z-index: 1;
+	left: 6.5%;
+
+}
+#learn:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+#contact {
+	display: inline-block;
+	position: relative;
+	text-align: left;
+	transition: 200ms;
+	max-width: 11%;
+	z-index: 1;
+}
+#contact:hover {
+	color: rgb(224, 178, 11);
+	transition: 400ms;
+}
+.ava {
+	margin-top: -5%;
+	text-align: right;
+	font-size: 300%;
+	color: white;
+	font-family: Comfortaa;
+	z-index: 0;
+	opacity: 0;
+	transition: 400ms;
+
+}
+#ava {
+	display: inline-block;
+	position: relative;
+	left: -5%;
+	margin-bottom: 6%;
+	transition: 400ms;
+}
+.car1 {
+     position: relative;
+     margin-top: -23%;
+     background-color: black;
+     transition: 400ms;
+}
+#car1 {
+	width: 100%;
+	background-color: black;
+	transition: 400ms;
+}
+.aboutother	{
+	font-size: 120%;
+	color: white;
+	text-align: left;
+	transition: 400ms;
+}
+.aboutzagalovok {
+	font-size: 200%;
+	color: white;
+	text-align: center;
+	margin-top: -3%;
+	transition: 400ms;
+}
+.yslygi {
+	font-size: 245%;
+	text-align: center;
+	color:  white;
+	margin-top: -5%;
+	transition: 400ms;
+}
+#yslygitxt {
+	margin-top: 10%;
+	margin-bottom: 6%;
+	transition: 400ms;
+}
+#learnzag {
+     display: inline-block;
+     position: relative;
+     font-size: 250%;
+     text-align: center;
+     color: white;
+     transition: 400ms;
+}
+.learnother {
+	font-size: 160%;
+	color: white;
+	text-align: left;
+	background-color: rgb(46, 46, 46);
+	margin-bottom:0;
+	width: 100%;
+	transition: 400ms;
+}
+.contact2 {
+	color: white;
+	font-size: 150%;
+	text-align: left;
+	transition: 400ms;
+}
+#contact2txt {
+	display: inline-block;
+	position: relative;
+	left: 65%;
+	margin-top: -17%;
+	transition: 400ms;
+}
+
+.adress {
+	color: white;
+	font-size: 150%;
+	text-align: left;
+	transition: 400ms;
+
+}
+.sositetxt {
+	text-align: right;
+	font-size: 200%;
+	color: white;
+	transition: 400ms;
+}
+#footerimg1 {
+	display: inline-block;
+	position: relative;
+	width: 8%;
+	left: 57%;
+	margin-top: 0%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg1:hover {
+	width: 8%;
+	left: 57%;
+	transition: 400ms;
+}
+#footerimg2 {
+    display: inline-block;
+	position: relative;
+	width: 8%;
+	left: 63%;
+	margin-top: -2%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg2:hover {
+	width: 8%;
+	left: 63%;
+	transition: 400ms;
+}
+#footerimg3 {
+	display: inline-block;
+	position: relative;
+	width: 8%;
+	left: 68%;
+	margin-top: -2%;
+	transition: 200ms;
+	z-index: 5;
+}
+#footerimg3:hover {
+	width: 8%;
+	left: 68%;
+	transition: 400ms;
+}
+}
